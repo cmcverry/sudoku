@@ -13,8 +13,8 @@ The rules of sudoku are as follows: each unique number can only be present once 
 1. Execute ```python sudoku.py``` on a CLI.
 2. the user is prompted to choose 1 of 4 options: ```Enter (1) Fill board, (2) verify your solution, (3) clear board, or (4) exit:```
 3. On startup and everytime the user fills a space on the board, the current state of the sudoku board is outputted in the CLI:
-
-  _   [ 5 ]   _    |    _     _   [ 9 ]  |  [ 8 ] [ 1 ] [ 3 ] 
+```
+_   [ 5 ]   _    |    _     _   [ 9 ]  |  [ 8 ] [ 1 ] [ 3 ] 
 
 
 [ 9 ] [ 8 ]   _    |  [ 3 ] [ 5 ]   _    |  [ 6 ]   _   [ 7 ] 
@@ -39,6 +39,7 @@ ____________________________________________________________
 
 
   _     _     _    |    _     _   [ 4 ]  |    _     _     _
+```
 
 4. Enter ```1``` to begin filling the board. The program will prompt the user to choose a row, column, and value. 
 5. Continue entering in values until the board is filled with your solution.
